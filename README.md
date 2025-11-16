@@ -1,6 +1,7 @@
 💊 Medicine Reminder App
 🩺 Android App for Managing Daily Medicines
 <p align="center"> <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Language-Kotlin-purple?style=for-the-badge"> <img src="https://img.shields.io/badge/UI-XML-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> </p>
+
 🚀 Overview
 
 The Medicine Reminder App is an Android application that helps users add, track, and manage their medicines easily.
@@ -9,9 +10,7 @@ It provides a simple UI to add medicine name, select time, and mark it as Taken.
 This app supports:
 
 Real-time medicine tracking
-
 Smooth RecyclerView list
-
 Modern Material button interactions
 
 ✨ Features
@@ -44,6 +43,7 @@ List Rendering	RecyclerView
 Material Design	Material Components
 App Structure	MVVM-lite
 IDE	Android Studio
+
 🗂️ Project Structure
 Medicine_reminder/
  ├── app/
@@ -59,30 +59,27 @@ Medicine_reminder/
  │   │     └── item_medicine.xml
  │   └── AndroidManifest.xml
 
+
 🔧 How to Run the Project
+
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/Medicine_reminder-App.git
 
 2️⃣ Open in Android Studio
-
 Open folder → Wait for Gradle sync.
 
 3️⃣ Run on Device
-
 Click ▶ Run on Emulator or Physical Device.
+
+
 
 🔮 Future Enhancements
 
 🔔 Push Notifications for medicine time
-
 📅 Daily calendar view
-
 🛢 Save data using Room Database
-
 🔊 Voice Alerts
-
 🌙 Dark Mode for night usage
-
 👩‍💻 Developer
 
 Maski Sneha
