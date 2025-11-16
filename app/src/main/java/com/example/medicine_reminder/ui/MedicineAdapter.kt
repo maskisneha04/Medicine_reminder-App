@@ -9,11 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.medicine_reminder.R
 
-data class Medicine(
-    val name: String,
-    val time: String,
-    var isTaken: Boolean = false
-)
+
 
 class MedicineAdapter(
     private val medicines: MutableList<Medicine>,

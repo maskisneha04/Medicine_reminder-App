@@ -16,13 +16,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/medicineList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp" />
+        android:padding="4dp"
+        tools:listitem="@layout/item_medicine" />
 
     <Button
         android:id="@+id/addMedicineBtn"
@@ -34,4 +34,3 @@
         android:layout_height="wrap_content" />
 
 </LinearLayout>
-

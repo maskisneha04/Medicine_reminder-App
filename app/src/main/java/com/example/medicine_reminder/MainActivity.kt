@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.medicine_reminder.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,7 +22,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         medicineRecycler = findViewById(R.id.medicineList)
-        addMedicineBtn = findViewById(R.id.addMedicineBtn)
+        val addMedicineBtn = findViewById<Button>(R.id.addMedicineBtn)
+
 
         adapter = MedicineAdapter(medicineList) { medicine ->
             medicineList.remove(medicine)

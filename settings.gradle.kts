@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Medicine_reminder"
-include(":apps")
- 
+include(":app")
+
