@@ -1,92 +1,107 @@
 💊 Medicine Reminder App
-🩺 Android App for Managing Daily Medicines
-<p align="center"> <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Language-Kotlin-purple?style=for-the-badge"> <img src="https://img.shields.io/badge/UI-XML-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> </p>
-
+🩺 Android Application for Managing Daily Medicines
 🚀 Overview
 
-The Medicine Reminder App is an Android application that helps users add, track, and manage their medicines easily.
-It provides a simple UI to add medicine name, select time, and mark it as Taken.
+The Medicine Reminder App helps users add, track, and manage their daily medicines easily.
+Users can add medicine name, select time, mark status as Taken, and delete items from the list.
 
 This app supports:
 
 Real-time medicine tracking
-Smooth RecyclerView list
-Modern Material button interactions
+
+Modern Material UI
+
+RecyclerView-based listing
+
+Works on emulator & real device
 
 ✨ Features
 
-✔ Add medicines with name & reminder time
+✔ Add medicines with name and reminder time
 ✔ Mark medicines as Taken / Not Taken
 ✔ Delete unwanted medicines
-✔ Clean modern UI
-✔ Works on both emulator & real device
+✔ Beautiful and simple UI
+✔ Built using Kotlin + XML
 
-📱 Screenshots
+---
 
-Place your images inside a folder called /screenshots
-Then replace the image names below:
+## 📱 Screenshots
 
-🏠 Home Screen
+Add your images inside a folder named **screenshots** in your repository.  
+Use these links after adding the images with the exact filenames.
+
+### 🏠 Home Screen
 ![Home Screen](screenshots/home.jpg)
 
-➕ Add Medicine Screen
+### ➕ Add Medicine Screen
 ![Add Medicine](screenshots/add_medicine.jpg)
 
-📋 Medicine List
+### 📋 Medicine List
 ![Medicine List](screenshots/list.jpg)
 
-🧰 Tech Stack
-Component	Technology Used
-Language	Kotlin
-UI Design	XML Layouts
-List Rendering	RecyclerView
-Material Design	Material Components
-App Structure	MVVM-lite
-IDE	Android Studio
+---
 
-🗂️ Project Structure
-Medicine_reminder/
- ├── app/
- │   ├── java/com.example.medicine_reminder/ui
- │   │     ├── MainActivity.kt
- │   │     ├── AddMedicineActivity.kt
- │   │     ├── Medicine.kt
- │   │     ├── MedicineAdapter.kt
- │   │     └── ReminderReceiver.kt (optional)
- │   ├── res/layout
- │   │     ├── activity_main.xml
- │   │     ├── activity_add_medicine.xml
- │   │     └── item_medicine.xml
- │   └── AndroidManifest.xml
+## 🧰 Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| Language | Kotlin |
+| UI Design | XML Layouts |
+| List Rendering | RecyclerView |
+| Components | Material Design |
+| IDE | Android Studio |
+
+---
+
+## 🗂 Project Structure
+Medicine_reminder-App/
+├── app/
+│ ├── java/com.example.medicine_reminder/ui/
+│ │ ├── MainActivity.kt
+│ │ ├── AddMedicineActivity.kt
+│ │ ├── Medicine.kt
+│ │ └── MedicineAdapter.kt
+│ ├── res/layout/
+│ │ ├── activity_main.xml
+│ │ ├── activity_add_medicine.xml
+│ │ └── item_medicine.xml
+│ └── AndroidManifest.xml
+
+---
+
+## 🔧 How to Run the Project
+
+1️⃣ Clone the repository  
+```bash
+git clone https://github.com/maskisneha04/Medicine_reminder-App.git
+2️⃣ Open the project in Android Studio
+3️⃣ Wait for Gradle sync
+4️⃣ Run on emulator or physical device
 
 
-🔧 How to Run the Project
+---
 
-1️⃣ Clone Repository
-git clone https://github.com/yourusername/Medicine_reminder-App.git
+# ⭐ **AFTER THAT — Add Future Enhancements**
 
-2️⃣ Open in Android Studio
-Open folder → Wait for Gradle sync.
+```md
+---
 
-3️⃣ Run on Device
-Click ▶ Run on Emulator or Physical Device.
+## 🔮 Future Enhancements
 
+- 🔔 Push Notifications  
+- 📅 Daily calendar view  
+- 🛢 Save data using Room Database  
+- 🔊 Voice alerts  
+- 🌙 Dark Mode
 
+---
 
-🔮 Future Enhancements
+## 👩‍💻 Developer
 
-🔔 Push Notifications for medicine time
-📅 Daily calendar view
-🛢 Save data using Room Database
-🔊 Voice Alerts
-🌙 Dark Mode for night usage
-👩‍💻 Developer
-
-Maski Sneha
-Computer Science & Engineering
+**Maski Sneha**  
+Computer Science & Engineering  
 USN: ENG23CS0109
 
-<p align="left"> <img src="https://img.shields.io/badge/Status-Project_Completed-brightgreen?style=flat-square"> </p>
-⭐ Support This Project
 
-If you liked this project, give it a ⭐ on GitHub!
+
+
